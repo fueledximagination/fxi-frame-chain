@@ -43,7 +43,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node --test \"test/*.test.js\"",
+    "test": "node --test test/*.test.js",
     "lint": "node scripts/lint.js",
     "example:mock": "node examples/mock-chain.js",
     "example:comfyui": "node examples/basic-chain.js examples/scenes.example.json"
