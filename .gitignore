@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+frame-chain-output/
+frame-chain-mock-output/
+*.mp4
+*.webm
+*.mov
+start-frame.png
+.DS_Store
+*.log
+REVIEW_SUMMARY.md

@@ -1,0 +1,20 @@
+{
+  "initial_frame_uri": "./start-frame.png",
+  "aspect_ratio": "16:9",
+  "idempotency_key": "lighthouse-demo-001",
+  "speed_ramping": true,
+  "scenes": [
+    {
+      "prompt": "Slow dolly toward a lighthouse on a cliff at dusk, waves breaking below, warm light in the lantern room",
+      "duration_seconds": 5
+    },
+    {
+      "prompt": "The camera keeps pushing in and rises past the railing, the lantern room fills the frame",
+      "duration_seconds": 5
+    },
+    {
+      "prompt": "Through the glass the beam sweeps across the sea as night falls, gentle drift to the right",
+      "duration_seconds": 6
+    }
+  ]
+}

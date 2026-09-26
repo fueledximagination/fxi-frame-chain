@@ -1,0 +1,53 @@
+{
+  "name": "fxi-frame-chain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frame chaining for AI video: chain image-to-video clips into one seamless continuous shot by starting each clip on the exact last frame of the previous one. Reference implementation with a local ComfyUI adapter.",
+  "keywords": [
+    "comfyui",
+    "ai-video",
+    "video-generation",
+    "frame-chaining",
+    "generative-ai",
+    "image-to-video",
+    "first-last-frame",
+    "seamless-video",
+    "ffmpeg"
+  ],
+  "license": "MIT",
+  "author": "FUELED BY IMAGINATION, LLC <contact@fxi.studio>",
+  "homepage": "https://github.com/fueledximagination/fxi-frame-chain#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fueledximagination/fxi-frame-chain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fueledximagination/fxi-frame-chain/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.3"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "fxi-frame-chain": "./bin/fxi-frame-chain.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "workflows",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "lint": "node scripts/lint.js",
+    "example:mock": "node examples/mock-chain.js",
+    "example:comfyui": "node examples/basic-chain.js examples/scenes.example.json"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
