@@ -12,6 +12,8 @@
 
 ## Why frame chaining
 
+> **New to the term?** Read the one-paragraph definition: **[What is frame chaining?](https://www.fxi.studio/glossary/frame-chaining?utm_source=github&utm_medium=oss&utm_campaign=frame-chain&utm_content=readme-definition)** on FXI Studio.
+
 Image-to-video models generate one clip at a time and forget everything in between. Stitch three generations together and you get three shots that jump at every cut: the light shifts, the camera snaps to a new position, objects move. Most AI video looks like a slideshow for this reason.
 
 Frame chaining fixes it with one rule: **start the next clip from the real last frame of the previous clip.** The model continues from exactly the pixels the last clip ended on, so the camera never cuts. That lets you:
