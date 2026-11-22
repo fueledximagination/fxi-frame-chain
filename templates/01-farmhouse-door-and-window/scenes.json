@@ -1,0 +1,11 @@
+{
+  "initial_frame_uri": "./inputs/clip-1-first-frame-derived.jpg",
+  "aspect_ratio": "16:9",
+  "idempotency_key": "farmhouse-door-and-window-001",
+  "speed_ramping": true,
+  "scenes": [
+    { "prompt": "Cinematic opening shot. A slow push-in across a dawn-lit wheat field toward a lone farmhouse on the horizon, mist hanging low, warm light breaking. Steady, unbroken. End the move framed on the farmhouse door.", "duration_seconds": 5 },
+    { "prompt": "Continuous cinematic dolly-in toward the weathered farmhouse at sunrise. The front door swings open and the camera glides through the doorway into a warm, lamp-lit farmhouse kitchen, dust motes in golden morning light. Steady, unbroken move. End framed on a wooden table with an oil lamp beside the window.", "duration_seconds": 5 },
+    { "prompt": "Continuous cinematic push past the oil lamp toward the window, the glass fills the frame and the camera floats out through it, rising above the golden wheat field at sunrise, mist low on the horizon. Steady, unbroken move. End on a wide aerial of the wheat field glowing gold.", "duration_seconds": 5 }
+  ]
+}

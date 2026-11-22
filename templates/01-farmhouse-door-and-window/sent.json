@@ -1,0 +1,45 @@
+{
+  "note": "Values copied from the generation records of the three real clips (rendered 2026-09-25 and 2026-09-26). A field that is absent here was not recorded for that clip; nothing was filled in.",
+  "model": "P-Video",
+  "clips": [
+    {
+      "n": 1,
+      "prompt_file": "prompts/01.txt",
+      "first_frame": null,
+      "last_frame": null,
+      "references": [],
+      "duration_seconds": 5,
+      "resolution": "720p",
+      "fps": 24,
+      "aspect_ratio": "match_input_image",
+      "draft": false,
+      "prompt_upsampling": true
+    },
+    {
+      "n": 2,
+      "prompt_file": "prompts/02.txt",
+      "first_frame": "inputs/clip-2-first-frame.jpg",
+      "last_frame": null,
+      "references": [],
+      "duration_seconds": 5,
+      "resolution": "720p",
+      "fps": 24,
+      "aspect_ratio": "match_input_image",
+      "draft": false,
+      "prompt_upsampling": "not recorded"
+    },
+    {
+      "n": 3,
+      "prompt_file": "prompts/03.txt",
+      "first_frame": "inputs/clip-3-first-frame.jpg",
+      "last_frame": null,
+      "references": [],
+      "duration_seconds": 5,
+      "resolution": "720p",
+      "fps": 24,
+      "aspect_ratio": "match_input_image",
+      "draft": false,
+      "prompt_upsampling": "not recorded"
+    }
+  ]
+}

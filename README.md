@@ -10,6 +10,23 @@
 
 ---
 
+## Templates
+
+This repository has two parts:
+
+1. **[Templates](templates/)**: complete, quotable examples of a chained shot. Each one has the plan as data, the exact prompts, the exact settings that were sent, the inputs, the results, why it works, and a reproduce file.
+2. **The CLI** (below): a small reference implementation of the chaining loop, with exact last-frame extraction, resumable retries and a ComfyUI adapter.
+
+| Template | Trick | Model |
+|---|---|---|
+| [01 Wheat field, through the farmhouse door, out the kitchen window](templates/01-farmhouse-door-and-window/) | Push through a door and out a window in three chained 5 s clips | P-Video |
+
+[Browse the gallery](gallery/index.html) (open the file in any browser; no install).
+
+Every value in a template comes from a real render. Where something was not recorded, the template says so.
+
+---
+
 ## Why frame chaining
 
 > **New to the term?** Read the one-paragraph definition: **[What is frame chaining?](https://www.fxi.studio/glossary/frame-chaining?utm_source=github&utm_medium=oss&utm_campaign=frame-chain&utm_content=readme-definition)** on FXI Studio.

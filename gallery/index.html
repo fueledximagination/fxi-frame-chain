@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frame-chain templates</title>
+<meta name="description" content="Frame-chained AI video templates with exact prompts and settings.">
+<style>
+:root{--bg:#050505;--card:#0f0f0f;--text:#fff;--text2:rgba(235,235,245,.6);--text3:rgba(235,235,245,.3);--gold:#eecd2b;--line:rgba(255,255,255,.1)}
+@media (prefers-color-scheme:light){:root{--bg:#f6f5f1;--card:#fff;--text:#111;--text2:rgba(30,30,40,.7);--text3:rgba(30,30,40,.45);--gold:#8a6d00;--line:rgba(0,0,0,.12)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1040px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:0 0 12px}
+.lede{color:var(--text2);max-width:60ch;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.card video,.card img{display:block;width:100%;aspect-ratio:1280/704;object-fit:cover;background:#000}
+.body{padding:16px 18px 20px}
+.tag{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin:0 0 6px}
+.card h2{font-size:18px;margin:0 0 8px}
+.card p{margin:0 0 12px;color:var(--text2);font-size:15px}
+.meta{font-size:13px;color:var(--text3);margin-bottom:14px}
+.links a{color:var(--text);margin-right:14px;font-size:14px;text-decoration:underline;text-underline-offset:3px}
+.links a:focus-visible,.links a:hover{color:var(--gold)}
+footer{margin-top:40px;color:var(--text3);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+<h1>Frame-chain templates</h1>
+<p class="lede">Every clip starts on the last frame of the one before it, so separate generations play as one continuous shot. Each template lists its exact prompts and settings.</p>
+<div class="grid">
+<article class="card">
+<video controls muted loop playsinline preload="metadata" poster="../templates/01-farmhouse-door-and-window/results/clip-1-first.jpg">
+<source src="../templates/01-farmhouse-door-and-window/results/preview.mp4" type="video/mp4">
+</video>
+<div class="body">
+<p class="tag">Template 01</p>
+<h2>Wheat field, through the farmhouse door, out the kitchen window</h2>
+<p>Three chained 5 s clips: a push-in across a field, through a door, and out a window to an aerial.</p>
+<div class="meta">P-Video · 3 clips · 720p · 24 fps</div>
+<div class="links">
+<a href="../templates/01-farmhouse-door-and-window/README.md">Read</a>
+<a href="../templates/01-farmhouse-door-and-window/sent.json">Settings</a>
+<a href="../templates/01-farmhouse-door-and-window/reproduce.md">Reproduce</a>
+</div>
+</div>
+</article>
+</div>
+<footer>FXI Studio. Code and text MIT licensed; generated media (c) FUELED BY IMAGINATION, LLC.</footer>
+</main>
+</body>
+</html>

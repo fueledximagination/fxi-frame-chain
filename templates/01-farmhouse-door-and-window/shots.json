@@ -1,0 +1,15 @@
+{
+  "template": "01-farmhouse-door-and-window",
+  "title": "Wheat field, through the farmhouse door, out the kitchen window",
+  "trick": "Every clip starts on the last frame of the one before it, so three separate generations play as one continuous shot.",
+  "model": "P-Video",
+  "clip_count": 3,
+  "clip_seconds": 5,
+  "aspect": "match_input_image (all three outputs are 1280x704, 24 fps, 121 frames)",
+  "chain_rule": "first frame of clip N+1 = frame 119 of clip N (zero-based; the clip has frames 0 to 120)",
+  "shots": [
+    { "n": 1, "move": "slow push-in across a wheat field toward a farmhouse, ending on the door", "prompt_file": "prompts/01.txt", "first_frame": null, "last_frame": null },
+    { "n": 2, "move": "dolly toward the house, through the door, into a kitchen", "prompt_file": "prompts/02.txt", "first_frame": "inputs/clip-2-first-frame.jpg", "last_frame": null },
+    { "n": 3, "move": "push past the lamp, out through the window, rise to a wide aerial of the field", "prompt_file": "prompts/03.txt", "first_frame": "inputs/clip-3-first-frame.jpg", "last_frame": null }
+  ]
+}
